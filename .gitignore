@@ -1,4 +1,9 @@
+/DFnormalizados
 /Google Maps
 /Yelp
-
-
+EDAviernes.ipynb
+df_unido.parquet
+dfCategory.parquet
+dfNormalizado.parquet
+dfPrueba.parquet
+dfRelativeResults.parquet

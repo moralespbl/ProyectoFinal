@@ -5,7 +5,7 @@ Para asegurar que la muestra sea representativa de la población, es crucial emp
 
 En nuestro caso, hemos definido las ciudades como los conglomerados y seleccionaremos las 10 ciudades con más establecimientos que cuenten con reseñas. Este tamaño de muestra representa aproximadamente el 6.31% de la población total.
 
-Para crear la muestra de entrenamiento para el modelo de ML, elegiremos aleatoriamente una cantidad de individuos dentro de estas ciudades. Se recomienda un tamaño de muestra de entre 10,000 y 50,000 datos, con la consideración de que estos deben estar balanceados, lo cual no siempre se refleja en la población original.
+Para crear la muestra de entrenamiento para el modelo de ML, elegiremos aleatoriamente una cantidad de individuos dentro de las ciudades del estado de New York. Se recomienda un tamaño de muestra de entre 10,000 y 50,000 datos, con la consideración de que estos deben estar balanceados, lo cual no siempre se refleja en la población original.
 
 
 
@@ -21,7 +21,7 @@ El propósito del PoC es evaluar la viabilidad de dos modelos ML:
 Además, se busca identificar términos frecuentes en comentarios positivos y negativos para un mejor entendimiento de los patrones lingüísticos, ajustados según filtros específicos que dependen del rubro al que pertenezcan.
 
 ## 2. Descripción del Método
-Se utilizó el muestreo por conglomerados para garantizar una representación adecuada de la población. Las ciudades fueron definidas como los conglomerados, y se seleccionaron las 10 ciudades con la mayor cantidad de establecimientos con reseñas, representando aproximadamente el 8% de la población total. Posteriormente, se seleccionó aleatoriamente una cantidad de individuos dentro de estas ciudades, con el objetivo de formar una muestra balanceada para entrenar ambos modelos.
+Se utilizó el muestreo por conglomerados para garantizar una representación adecuada de la población. Las ciudades fueron definidas como los conglomerados, y se seleccionaron las 10 ciudades con la mayor cantidad de establecimientos con reseñas, representando aproximadamente el 8% de la población total. Posteriormente, se seleccionó aleatoriamente una cantidad de individuos dentro de ciudades del estado de NY, con el objetivo de formar una muestra balanceada para entrenar ambos modelos.
 
 El tamaño sugerido de la muestra varía entre 10,000 y 50,000 datos. Es esencial que esta muestra esté balanceada, aunque este equilibrio no siempre se refleja en la población original.
 
